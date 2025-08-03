@@ -1,0 +1,99 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fcfcfc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #673ab7, #512da8);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+main.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.code-section {
+  background: #212121;
+  color: #e0e0e0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.code-section.secure {
+  background: #263238;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: monospace;
+}
+
+.form-section {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btns {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  flex: 1;
+  margin: 0 0.5rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.red {
+  background: #e53935;
+}
+
+.btn.green {
+  background: #43a047;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  margin-top: 3rem;
+}
